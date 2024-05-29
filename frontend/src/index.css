@@ -1,0 +1,72 @@
+:root {
+  --hover-colors: #33d6c4;
+  --text-origin-color: #fefefe;
+  --main-text-color: #fefffe;
+  --aditional-color: #33d6c4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: var(--background-color2);
+  height: 100%;
+  color: var(--text-color);
+  
+  
+}
+
+.custom-modal .ant-modal-body::-webkit-scrollbar {
+  max-width: 12px;
+}
+
+.custom-modal .ant-modal-body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-modal .ant-modal-body::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border: 3px solid transparent;
+}
+
+.custom-modal .ant-modal-body::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/*App*/
+:root {
+  --background-color1: #232323;
+  --background-color2: linear-gradient(90deg, #242424, #191919);
+  --background-color3: #000000;
+  --background-color4: #333333;
+  --background-color5: #223f41;
+  --background-color6: #171717;
+  --background-color7: #162728;
+  --background-color8: #961618;
+  --background-color9: #761214;
+  --border-color: #aaaaaa;
+  --border-color2:#707070;
+  --text-color: #b9b9b9;
+  --text-color2: #fff;
+}
+
+.light-theme {
+  --background-color1: #cdcdcd;
+  --background-color2: linear-gradient(90deg, #c4c4c4, #dadada);
+  --background-color3: #f4f4f4;
+  --background-color4: #c1c1c1;
+  --background-color5: #33d6c4;
+  --background-color6: #b9b9b9;
+  --background-color7: #2bb7a6;
+  --background-color8: #ff4d4f;
+  --background-color9: #ff7875;
+  --border-color: #888888;
+  --border-color2:#343434;
+  --text-color: #1d1d1d;
+  --text-color2: #000;
+}

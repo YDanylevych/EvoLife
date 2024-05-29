@@ -1,0 +1,157 @@
+.relative-position {
+  position: relative;
+}
+
+.ant-menu {
+    background: var(--background-color2) !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 10;
+    z-index: 1;
+    user-select: none;
+    min-width: 30px;
+}
+
+.ant-menu.ant-menu-dark {
+    box-shadow:
+        2px 0px 4px rgba(0, 0, 0, 0.05) inset,
+        0px 0px 4px rgba(255, 255, 255, 0.05) inset;
+  }
+  
+.ant-menu-item {
+    color: var(--text-color) !important;
+}
+  
+.ant-menu-item:hover {
+  background-color: var(--background-color5)!important;
+}
+  
+.ant-menu-item-selected {
+    background-color: var(--background-color5)!important;
+}
+
+.non-selectable {
+  pointer-events: none;
+  cursor: default;
+}
+
+.non-selectable span {
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.non-selectable:hover {
+  background-color: transparent !important;
+}
+
+.ant-menu-item.non-selectable.ant-menu-item-selected {
+  background-color: transparent !important;
+}
+
+.custom-footer {
+  padding: 16px;
+  text-align: center;
+  color: var(--text-color);
+  background-color: var(--background-color6);
+  box-shadow: 
+  2px 0px 4px rgba(0, 0, 0, 0.05) inset,
+  0px 0px 4px rgba(255, 255, 255, 0.05) inset;
+  z-index: 3;
+}
+
+.custom-footer-text {
+  margin-bottom: 15px;
+}
+
+.custom-footer-button.ant-btn {
+    width: 100%;
+    color: var(--text-color);
+    border: 2px solid #33d6c4;
+    background-color: transparent;
+    text-align: center;
+    line-height: 0px;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-footer-button.ant-btn:hover {
+    background-color: #33d6c4 !important;
+    color: var(--background-color3) !important;
+    border-color: #33d6c4 !important;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-right-button-container {
+    position: relative;
+    z-index: 10;
+  }
+  
+  .custom-button {
+    position: relative;
+    width: 200px;
+    height: 40px;
+    font-size: 17px;
+    color: var(--text-color);
+    border: 2px solid #33d6c4;
+    background-color: transparent;
+    text-align: center;
+    line-height: 0px;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .custom-button:hover, .custom-button:focus {
+    background-color: #33d6c4 !important;
+    color: var(--background-color3) !important;
+    border-color: #33d6c4 !important;
+  }
+
+  .menu {
+    width: 256px;
+    height: 100vh;
+    display: flex;
+    direction: column; 
+    position: relative; 
+    color: var(--text-color)!important;
+    opacity: 1;
+  }
+
+  .ant-menu-submenu-arrow {
+    color: var(--text-color) !important;
+  }
+
+
+  @media (max-width:768px) {
+    .custom-button {
+      width: 150px;
+      height: 35px;
+      font-size: 14px;
+    }
+    .relative-position {
+      position: fixed;
+    }
+  }
+
+  @media (max-width:480px) {
+    .custom-button {
+      width: 150px;
+      height: 35px;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+    .top {
+      display: inline;
+      justify-content: center;
+    }
+    .relative-position {
+      position: fixed;
+    }
+  }
+
+
+
+  
