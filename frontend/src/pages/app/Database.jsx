@@ -23,7 +23,7 @@ const MyDatabase = () => {
   const items = [
     { id: 1, image: image1, text: 'Philosophy', options: [
       { key: 1, text: 'Man and his Symbols - Carl G.Jung', link: 'https://static1.squarespace.com/static/5e265eb50aee2d7e8a81ae69/t/634606fa5c87e33191e60e11/1665533705287/man-and-his-symbols%2BB.pdf' },
-      { key: 2, text: 'Option 1-2', link: 'https://example.com/1-2' },
+      { key: 2, text: 'Metaphysics - Aristotle', link: 'https://philpapers.org/archive/SONAM-3.pdf' },
       { key: 3, text: 'Option 1-3', link: 'https://example.com/1-3' },
       { key: 4, text: 'Option 1-4', link: 'https://example.com/1-4' },
       { key: 5, text: 'Option 1-5', link: 'https://example.com/1-5' },
@@ -34,9 +34,9 @@ const MyDatabase = () => {
       { key: 10, text: 'Option 1-10', link: 'https://example.com/1-10' }
     ] },
     { id: 2, image: image2, text: 'Workout', options: [
-      { key: 1, text: 'Option 2-1', link: 'https://example.com/2-1' },
-      { key: 2, text: 'Option 2-2', link: 'https://example.com/2-2' },
-      { key: 3, text: 'Option 2-3', link: 'https://example.com/2-3' },
+      { key: 1, text: 'Thenx', link: 'https://thenx.com/training' },
+      { key: 2, text: 'Next', link: 'https://nextworkoutapp.com/next-app' },
+      { key: 3, text: 'Andrealarosa', link: 'https://www.andrealarosa.fit/en/' },
       { key: 4, text: 'Option 2-4', link: 'https://example.com/2-4' },
       { key: 5, text: 'Option 2-5', link: 'https://example.com/2-5' },
       { key: 6, text: 'Option 2-6', link: 'https://example.com/2-6' },
@@ -94,8 +94,8 @@ const MyDatabase = () => {
       { key: 10, text: 'Option 6-10', link: 'https://example.com/6-10' }
     ] },
     { id: 7, image: image7, text: 'Financial Literacy', options: [
-      { key: 1, text: 'Option 7-1', link: 'https://example.com/7-1' },
-      { key: 2, text: 'Option 7-2', link: 'https://example.com/7-2' },
+      { key: 1, text: 'Rich Dad Poor Dad - Robert Kiyosaki', link: 'https://www.everand.com/book/206713254/Rich-Dad-Poor-Dad' },
+      { key: 2, text: 'The Intelligent Investor - Benjamin Graham', link: 'https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661' },
       { key: 3, text: 'Option 7-3', link: 'https://example.com/7-3' },
       { key: 4, text: 'Option 7-4', link: 'https://example.com/7-4' },
       { key: 5, text: 'Option 7-5', link: 'https://example.com/7-5' },
